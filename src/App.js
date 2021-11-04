@@ -5,7 +5,7 @@ import { Header } from './components/Header';
 function App() {
   return (
     <div>
-      Hello world from Mohammad Naeem
+      
       <Header />
     </div>
   );
