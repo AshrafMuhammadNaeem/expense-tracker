@@ -7,11 +7,11 @@ export const AddTransaction = () => {
       <form>
         <div className="form-control">
           <label htmlFor="text">Text</label>
-          <input type="text" placeholder="Enter text..." />
+          <input type="text" placeholder="Enter transaction name..." />
         </div>
         <div className="form-control">
           <label htmlFor="amount">Amount <br />
-            (negative - expense, positive - income)</label
+            (Income(+ve), Expenses(-ve) )</label
           >
           <input type="number"  placeholder="Enter amount..." />
         </div>
