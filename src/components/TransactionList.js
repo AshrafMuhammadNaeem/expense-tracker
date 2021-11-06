@@ -1,6 +1,10 @@
-import React from 'react'
-
+import React, { useContext } from 'react'
+// anything from GlobalContext can be pulled by useContext hook
+// pull GlobalState in to access transactions
+import { GlobalContext } from '../Context/GlobalState'
 export const TransactionList = () => {
+  const {transactions} = useContext(GlobalContext);
+  
     return (
         <>
             <h3>Transaction History</h3>
