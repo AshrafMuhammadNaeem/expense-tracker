@@ -9,9 +9,9 @@ export const TransactionList = () => {
         <>
             <h3>Transaction History</h3>
       <ul className="list">
-         <li className="minus">
+         {transactions.map(transactions => (<li className="minus">
           Cash <span>-$900</span><button className="delete-btn">remove</button>
-        </li> 
+        </li> ))}
       </ul>
             
         </>
