@@ -5,7 +5,7 @@ import { Balance } from './components/Balance';
 import { Header } from './components/Header';
 import { IncomeExpense } from './components/IncomeExpense';
 import { TransactionList } from './components/TransactionList';
-import { GlobalProvider } from './Context/GlobalState';
+import { GlobalProvider } from './context/GlobalState';
 
 
 
