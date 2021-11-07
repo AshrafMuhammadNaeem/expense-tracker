@@ -15,7 +15,7 @@ const initialState = {
 export const GlobalContext = createContext(initialState);
 
 // Create the provider for accesing Global Context
-export const GlobalProvider = ({children}) => {
+export const GlobalProvider = ({ children }) => {
     const [state, dispatch] = useReducer(AppReducer, initialState);
 
     return (<GlobalContext.Provider vallue={
@@ -24,6 +24,6 @@ export const GlobalProvider = ({children}) => {
 
         }
     }>
-        {children}
+        { children }
     </GlobalContext.Provider>);
 }
